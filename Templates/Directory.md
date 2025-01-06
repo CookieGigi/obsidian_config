@@ -1,3 +1,9 @@
+---
+cssclasses:
+  - wide-page
+---
+
+
 <%*
   // Rename file with the one choose by user
   const fileName = await tp.system.prompt("Title :")
@@ -16,28 +22,30 @@ TASK
 WHERE startswith(file.folder, this.file.folder)
 ```
 
-## Last modified
+## Notes
 
-```dataview
-List
-FROM ""
-WHERE contains(file.folder, this.file.folder)
-SORT file.mtime DESC
-LIMIT 5
-```
-
-## Last new
-
-```dataview
-List
-FROM ""
-WHERE contains(file.folder, this.file.folder)
-SORT file.ctime DESC
-LIMIT 5
-```
-## All
-
-```dataview
-LIST
-WHERE contains(file.folder, this.file.folder)
-```
+> [!multi-column]
+> 
+>> Last modified
+>>```dataview
+>>List
+>>FROM ""
+>>WHERE contains(file.folder, this.file.folder)
+>>SORT file.mtime DESC
+>>LIMIT 5
+>>```
+>
+>> Last new
+>>```dataview
+>>List
+>>FROM ""
+>>WHERE contains(file.folder, this.file.folder)
+>>SORT file.ctime DESC
+>>LIMIT 5
+>>```
+>
+>> All
+>>```dataview
+>>LIST
+>>WHERE contains(file.folder, this.file.folder)
+>>```

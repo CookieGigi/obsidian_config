@@ -1,6 +1,5 @@
 [
   "obsidian-pandoc",
-  "remotely-save",
   "dataview",
   "homepage",
   "obsidian-meta-bind-plugin",
@@ -9,5 +8,6 @@
   "obsidian-tasks-plugin",
   "obsidian-advanced-uri",
   "obsidian-tomorrows-daily-note",
-  "note-archiver"
+  "note-archiver",
+  "remotely-save"
 ]

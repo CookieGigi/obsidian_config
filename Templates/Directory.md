@@ -15,6 +15,23 @@ cssclasses:
   await tp.file.move(newFolder + fileName)
 %>
 
+```meta-bind-button
+label: New note
+icon: plus
+hidden: false
+class: ""
+tooltip: ""
+id: ""
+style: default
+actions:
+  - type: templaterCreateNote
+    templateFile: Templates/Note.md
+    folderPath: <% tp.file.folder(true) %>
+    fileName: ""
+    openNote: true
+    openIfAlreadyExists: false
+
+```
 ## Todo
 
 ```dataview

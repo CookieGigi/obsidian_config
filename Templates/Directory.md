@@ -1,6 +1,7 @@
 ---
 cssclasses:
   - wide-page
+type: directory-page
 ---
 
 

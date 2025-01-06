@@ -1,0 +1,13 @@
+Tasks
+- [ ] Review task 🔁 every week 📅 2025-01-13
+- [x] Review task 🔁 every week 📅 2025-01-06 ✅ 2025-01-06
+- [x] Review task 🔁 every week 📅 2024-12-30 ✅ 2024-12-30
+- [x] Review task 🔁 every week 📅 2024-12-23 ✅ 2024-12-23
+- [x] Review task 🔁 every week 📅 2024-12-16 ✅ 2024-12-16
+- [x] Review task 🔁 every week 📅 2024-12-09 ✅ 2024-12-09
+- [x] Review task 🔁 every week 📅 2024-12-02 ✅ 2024-12-03
+- [x] Review task 🔁 every week 📅 2024-11-25 ✅ 2024-11-25
+- [x] Review task 🔁 every week 📅 2024-11-18 ✅ 2024-11-19
+- [x] Review task 🔁 every week 📅 2024-11-11 ✅ 2024-11-11
+- [x] Review task 🔁 every week 📅 2024-11-04 ✅ 2024-11-04
+- [x] Review task 🔁 every week 📅 2024-10-28 ✅ 2024-10-28

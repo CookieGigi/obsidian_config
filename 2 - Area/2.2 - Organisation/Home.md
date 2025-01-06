@@ -10,11 +10,10 @@ group by function task.file.folder.slice(0, -1).split('/').pop() + '/' + task.fi
 
 
 # Quick link
-- [[2 - Area/2.2 Organisation/Todo]]
+- [[2 - Area/2.2 - Organisation/Todo]]
 - 
-
 ```meta-bind-button
-label: Day Sport
+label: Quick Note
 icon: ""
 hidden: false
 class: ""
@@ -22,10 +21,9 @@ tooltip: ""
 id: ""
 style: default
 actions:
-  - type: templaterCreateNote
-    templateFile: Templates/Sport quotidien template.md
-    folderPath: 2 - Area/2.4 Activité/Sports/Quotidien
-    fileName: ""
+  - type: createNote
+    folderPath: Inbox
+    fileName: Untitled
     openNote: true
     openIfAlreadyExists: false
 

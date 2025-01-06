@@ -1,5 +1,0 @@
----
-Step: 
-Calorie: 
-Duration:
----

@@ -48,6 +48,7 @@ WHERE startswith(file.folder, this.file.folder)
 >>List
 >>FROM ""
 >>WHERE contains(file.folder, this.file.folder)
+>>WHERE type != "directory-page"
 >>SORT file.mtime DESC
 >>LIMIT 5
 >>```
@@ -57,6 +58,7 @@ WHERE startswith(file.folder, this.file.folder)
 >>List
 >>FROM ""
 >>WHERE contains(file.folder, this.file.folder)
+>>WHERE type != "directory-page"
 >>SORT file.ctime DESC
 >>LIMIT 5
 >>```
@@ -65,4 +67,5 @@ WHERE startswith(file.folder, this.file.folder)
 >>```dataview
 >>LIST
 >>WHERE contains(file.folder, this.file.folder)
+>>WHERE type != "directory-page"
 >>```

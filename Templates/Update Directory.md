@@ -8,8 +8,6 @@ type: directory-page
 <%*
 	const folders = tp.file.folder(true).split('/')
 	const fileName = folders[folders.length - 1]
-
-	tR += folders.join(", ")
   
 	const baseFolder = tp.file.folder(true)
 	const newFolder = `${baseFolder}/`

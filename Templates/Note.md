@@ -21,3 +21,5 @@ creation_date: <% tp.file.creation_date() %>
 	// remove last pipe and blank characters from output
 	tR = tR.slice(0, -2);
 %>
+
+<% tp.file.cursor() %>

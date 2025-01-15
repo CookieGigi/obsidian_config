@@ -17,6 +17,14 @@
     {
       "folder": "/",
       "template": "Templates/Note.md"
+    },
+    {
+      "folder": "1 - Project/Server self hosting/Service",
+      "template": "Templates/Service.md"
+    },
+    {
+      "folder": "1 - Project/Job hunting/Application",
+      "template": "Templates/Application.md"
     }
   ],
   "enable_file_templates": false,

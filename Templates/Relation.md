@@ -1,20 +1,42 @@
 ---
 cssclasses:
   - wide-page
-type: directory-page
+type: relation-page
+birthday:
 ---
 
-
 <%*
-  // Rename file with the one choose by user
-  const fileName = await tp.system.prompt("Title :")
-  await tp.file.rename(fileName)
+	// Rename file with the one choose by user
+	const fileName = await tp.system.prompt("Nom :")
+	await tp.file.rename(fileName)
   
-  const baseFolder = tp.file.folder(true)
-  const newFolder = `${baseFolder}/${fileName}/`
+	const baseFolder = tp.file.folder(true)
+	const newFolder = `${baseFolder}/${fileName}/`
 
-  await tp.file.move(newFolder + fileName)
+	await tp.file.move(newFolder + fileName)
+
+	// Birthday
+	const birthday_str = await tp.system.prompt("Anniversaire :")
+	if(birthday_str !== ""){
+		const birthday = moment(birthday_str, "DD/MM/YYYY", true)
+		if(birthday.isValid()){
+			console.log(birthday)
+			
+			const file = tp.file.find_tfile(fileName);
+			await app.fileManager.processFrontMatter(file, (frontmatter) => {
+				console.log(frontmatter)
+				frontmatter["birthday"] = birthday.format("MM/DD/YYYY");
+			  
+			})
+		}
+	}
+	
 %>
+
+
+
+
+
 
 ```meta-bind-button
 label: New note

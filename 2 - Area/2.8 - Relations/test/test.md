@@ -1,20 +1,16 @@
 ---
 cssclasses:
   - wide-page
-type: directory-page
+type: relation-page
+birthday:
 ---
 
 
-<%*
-  // Rename file with the one choose by user
-  const fileName = await tp.system.prompt("Title :")
-  await tp.file.rename(fileName)
-  
-  const baseFolder = tp.file.folder(true)
-  const newFolder = `${baseFolder}/${fileName}/`
 
-  await tp.file.move(newFolder + fileName)
-%>
+
+
+
+
 
 ```meta-bind-button
 label: New note
@@ -27,7 +23,7 @@ style: default
 actions:
   - type: templaterCreateNote
     templateFile: Templates/Note.md
-    folderPath: <% tp.file.folder(true) %>
+    folderPath: 2 - Area/2.8 - Relations/test
     fileName: ""
     openNote: true
     openIfAlreadyExists: false

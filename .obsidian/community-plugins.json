@@ -1,14 +1,13 @@
 [
-  "obsidian-pandoc",
-  "dataview",
-  "homepage",
-  "obsidian-meta-bind-plugin",
-  "templater-obsidian",
-  "obsidian-front-matter-title-plugin",
-  "obsidian-tasks-plugin",
-  "obsidian-advanced-uri",
   "obsidian-tomorrows-daily-note",
+  "templater-obsidian",
+  "obsidian-tasks-plugin",
+  "pomodoro-timer",
   "note-archiver",
-  "remotely-save"
-  "pomodoro-timer"
+  "obsidian-meta-bind-plugin",
+  "homepage",
+  "dataview",
+  "obsidian-advanced-uri",
+  "customjs",
+  "fix-require-modules"
 ]

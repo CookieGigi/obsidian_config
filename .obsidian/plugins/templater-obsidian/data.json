@@ -15,7 +15,7 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "/",
+      "folder": "1 - Project",
       "template": "Templates/Note.md"
     },
     {
@@ -25,6 +25,14 @@
     {
       "folder": "1 - Project/Job hunting/Application",
       "template": "Templates/Application.md"
+    },
+    {
+      "folder": "2 - Area",
+      "template": "Templates/Note.md"
+    },
+    {
+      "folder": "3 - Resource",
+      "template": "Templates/Note.md"
     }
   ],
   "enable_file_templates": false,

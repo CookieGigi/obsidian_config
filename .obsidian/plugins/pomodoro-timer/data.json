@@ -7,7 +7,7 @@
   "customSound": "",
   "showTaskProgress": true,
   "enableTaskTracking": false,
-  "logFile": "NONE",
+  "logFile": "DAILY",
   "logFocused": false,
   "logPath": "",
   "logLevel": "ALL",

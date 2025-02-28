@@ -16,7 +16,7 @@
   "folder_templates": [
     {
       "folder": "1 - Project",
-      "template": "Templates/Note.md"
+      "template": "Templates/Project Note.md"
     },
     {
       "folder": "1 - Project/Server self hosting/Service",

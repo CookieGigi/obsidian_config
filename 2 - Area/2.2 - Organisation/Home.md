@@ -11,7 +11,7 @@ group by function task.file.folder.slice(0, -1).split('/').pop() + '/' + task.fi
 
 # Quick link
 - [[2 - Area/2.2 - Organisation/Todo]]
-- 
+- [[Planifier]]
 ```meta-bind-button
 label: Quick Note
 icon: ""

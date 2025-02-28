@@ -6,7 +6,8 @@ status:
   - up
 url: 
 projet: 
-vm:
+vm: 
+parent: "[[<% tp.file.folder() %>]]"
 ---
 
 

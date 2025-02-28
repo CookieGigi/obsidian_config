@@ -2,6 +2,7 @@
 cssclasses:
   - wide-page
 type: directory-page
+category: "[[<% tp.file.folder(true).split('/').slice(-2, 1) %>]]"
 ---
 
 

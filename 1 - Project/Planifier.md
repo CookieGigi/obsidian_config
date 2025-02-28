@@ -1,5 +1,6 @@
-- [x] planifier un roulement dans l'avancée des projets 📅 2025-01-22 ✅ 2025-01-23
-
+---
+category: "[[1 - Project]]"
+---
 ```dataview
 Table priority, deadline
 where contains(file.folder, this.file.folder)

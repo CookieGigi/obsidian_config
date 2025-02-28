@@ -1,3 +1,8 @@
+---
+parent: "[[<%tp.file.folder()%>]]"
+---
+
+
 ## New task
 
 

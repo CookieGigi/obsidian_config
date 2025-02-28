@@ -2,11 +2,12 @@
 cssclasses:
   - wide-page
 type: directory-page
-category: "[[<% tp.file.folder(true).split('/').slice(-2, 1) %>]]"
+category: "[[<% tp.file.folder(true).split('/').slice(-2, -1)%>]]"
 ---
 
 
 <%*
+	console.log(tp.file.folder(true).split('/'))
 	const folders = tp.file.folder(true).split('/')
 	const fileName = folders[folders.length - 1]
   

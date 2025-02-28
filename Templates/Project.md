@@ -4,7 +4,7 @@ cssclasses:
 type: project-page
 priority: 0
 deadline: 
-category: "[[<% tp.file.folder(true).split('/').slice(-2, 1) %>]]"
+category: "[[<% tp.file.folder() %>]]"
 ---
 
 

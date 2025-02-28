@@ -1,14 +1,15 @@
 [
-  "obsidian-tomorrows-daily-note",
-  "templater-obsidian",
-  "obsidian-tasks-plugin",
-  "pomodoro-timer",
-  "note-archiver",
-  "obsidian-meta-bind-plugin",
-  "homepage",
-  "dataview",
   "obsidian-advanced-uri",
+  "fix-require-modules",
   "customjs",
   "fix-require-modules"
   "remotely-save"
+  "dataview",
+  "homepage",
+  "obsidian-meta-bind-plugin",
+  "note-archiver",
+  "pomodoro-timer",
+  "obsidian-tasks-plugin",
+  "templater-obsidian",
+  "obsidian-tomorrows-daily-note"
 ]

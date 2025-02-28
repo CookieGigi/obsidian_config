@@ -1,7 +1,9 @@
 ---
 cssclasses:
   - wide-page
-type: directory-page
+type: project-page
+priority: 0
+deadline:
 ---
 
 

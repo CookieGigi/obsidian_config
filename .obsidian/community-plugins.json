@@ -3,7 +3,6 @@
   "fix-require-modules",
   "customjs",
   "fix-require-modules"
-  "remotely-save"
   "dataview",
   "homepage",
   "obsidian-meta-bind-plugin",
@@ -11,5 +10,6 @@
   "pomodoro-timer",
   "obsidian-tasks-plugin",
   "templater-obsidian",
-  "obsidian-tomorrows-daily-note"
+  "obsidian-tomorrows-daily-note",
+  "remotely-save"
 ]

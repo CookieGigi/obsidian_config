@@ -1,5 +1,5 @@
 ---
-category: "[[1 - Project]]"
+parent: "[[1 - Project]]"
 ---
 ```dataview
 Table priority, deadline

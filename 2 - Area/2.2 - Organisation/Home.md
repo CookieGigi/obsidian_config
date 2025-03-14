@@ -1,4 +1,6 @@
-
+---
+parent: "[[2.2 - Organisation]]"
+---
 # Today 
 ```tasks
 due on or before today

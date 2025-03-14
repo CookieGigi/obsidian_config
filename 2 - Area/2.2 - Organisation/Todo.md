@@ -1,3 +1,6 @@
+---
+parent: "[[2.2 - Organisation]]"
+---
 
 
 ```tasks
@@ -17,6 +20,7 @@ group by function \
     return label(4, 'Future');
 group by function task.file.folder.slice(0, -1).split('/').pop() + '/' + task.file.filenameWithoutExtension + (task.hasHeading ? (' > ' + task.heading) : '')
 ```
+
 
 
 

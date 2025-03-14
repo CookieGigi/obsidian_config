@@ -5,6 +5,8 @@
     "tags": "tags",
     "creation_date": "date",
     "status": "text",
-    "birthday": "date"
+    "birthday": "date",
+    "category": "text",
+    "parent": "text"
   }
 }

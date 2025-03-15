@@ -11,7 +11,7 @@
   "autoSuggestMaxItems": 20,
   "provideAccessKeys": true,
   "useFilenameAsScheduledDate": false,
-  "filenameAsScheduledDateFormat": "",
+  "filenameAsScheduledDateFormat": "YYYY-MM-DD",
   "filenameAsDateFolders": [],
   "recurrenceOnNextLine": false,
   "statusSettings": {

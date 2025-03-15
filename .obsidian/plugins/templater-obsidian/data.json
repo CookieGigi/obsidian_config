@@ -15,16 +15,12 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "1 - Project/Workflow/Server self hosting/Service",
+      "folder": "2 - Area/2.3 - Tools/Server self hosting/Service",
       "template": "Templates/Service.md"
     },
     {
       "folder": "1 - Project",
       "template": "Templates/Project Note.md"
-    },
-    {
-      "folder": "1 - Project/Job hunting/Application",
-      "template": "Templates/Application.md"
     },
     {
       "folder": "2 - Area",

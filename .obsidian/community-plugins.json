@@ -2,14 +2,14 @@
   "obsidian-advanced-uri",
   "fix-require-modules",
   "customjs",
-  "fix-require-modules"
   "dataview",
   "homepage",
   "obsidian-meta-bind-plugin",
   "note-archiver",
   "pomodoro-timer",
+  "remotely-save",
   "obsidian-tasks-plugin",
   "templater-obsidian",
   "obsidian-tomorrows-daily-note",
-  "remotely-save"
+  "obsidian-style-settings"
 ]

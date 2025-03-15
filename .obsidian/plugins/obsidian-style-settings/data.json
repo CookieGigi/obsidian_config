@@ -49,8 +49,12 @@
   "modular-css-layout-gc@@gallery-snw-display": "inline-block",
   "modular-css-layout-gc@@mermaid-zoom": false,
   "modular-css-layout-wv@@is-adj-rll": true,
-  "modular-css-layout-wv@@wide-dataview-global": true,
-  "modular-css-layout-wv@@wide-table-global": true,
-  "modular-css-layout-wv@@wide-callout-global": true,
-  "modular-css-layout-wv@@wide-backlinks-global": true
+  "modular-css-layout-wv@@wide-dataview-global": false,
+  "modular-css-layout-wv@@wide-table-global": false,
+  "modular-css-layout-wv@@wide-callout-global": false,
+  "modular-css-layout-wv@@wide-backlinks-global": false,
+  "anuppuccin-theme-settings@@anp-callout-select": "anp-callout-sleek",
+  "anuppuccin-theme-settings-extended@@anp-theme-ext-dark": false,
+  "anuppuccin-theme-settings-extended@@anp-theme-ext-amoled": false,
+  "anuppuccin-theme-settings-extended@@catppuccin-theme-extended": "ctp-atom-light"
 }

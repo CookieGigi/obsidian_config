@@ -1,6 +1,5 @@
 ---
 cssclasses:
-  - wide-page
 type: relation-page
 birthday: 
 parent: "[[<% tp.file.folder() %>]]"

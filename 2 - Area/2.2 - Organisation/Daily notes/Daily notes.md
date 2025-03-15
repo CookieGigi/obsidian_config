@@ -1,6 +1,5 @@
 ---
 cssclasses:
-  - wide-page
 type: directory-page
 category: "[[2.2 - Organisation]]"
 ---

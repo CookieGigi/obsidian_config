@@ -7,12 +7,14 @@ parent: "[[2.2 - Organisation]]"
 not done
 filter by function !task.file.folder.includes("liste de course")
 
-group by function task.recurrenceRule.replace('when done', '==when done==')
 group by status.name
+group by function task.recurrenceRule.replace('when done', '==when done==')
+
 
 sort by priority
 
 ```
+
 
 
 

@@ -3,7 +3,7 @@ parent: "[[2.2 - Organisation]]"
 ---
 # Today 
 ```tasks
-(due on or before today) OR (scheduled on or before today) OR (starts on or before today)
+(due on or before today) 
 not done
 filter by function !task.file.folder.includes("liste de course")
 
@@ -13,6 +13,7 @@ group by status.name
 sort by priority
 
 ```
+
 
 
 

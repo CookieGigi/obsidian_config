@@ -1,7 +1,7 @@
 {
-  "tutorialIndex": 0,
+  "tutorialIndex": -1,
   "currencySymbol": "€",
-  "ledgerFile": "2 - Area/2.9 - Finance/transactions.ledger",
+  "ledgerFile": "2 - Area/2.9 - Finance/personnal.ledger",
   "assetAccountsPrefix": "Assets",
   "expenseAccountsPrefix": "Expenses",
   "incomeAccountsPrefix": "Income",

@@ -6,6 +6,7 @@ parent: "[[2.2 - Organisation]]"
 (due on or before today) 
 not done
 filter by function !task.file.folder.includes("liste de course")
+filter by function !task.file.folder.includes("Archive")
 
 group by status.name
 group by function task.recurrenceRule.replace('when done', '==when done==')

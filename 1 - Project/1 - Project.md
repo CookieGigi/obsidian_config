@@ -1,14 +1,11 @@
 ---
-cssclasses:
+cssclasses: 
 type: directory-page
+category: "[[1 - Project]]"
 ---
 
-
-
-
-
 ```meta-bind-button
-label: New note
+label: New sub area
 icon: plus
 hidden: false
 class: ""
@@ -17,46 +14,18 @@ id: ""
 style: default
 actions:
   - type: templaterCreateNote
-    templateFile: Templates/Note.md
+    templateFile: Templates/Sub Area.md
+
     fileName: ""
     openNote: true
     openIfAlreadyExists: false
 
 ```
-## Todo
-
+# Projets
 ```dataview
-TASK
-WHERE startswith(file.folder, this.file.folder)
+Table category, priority, deadline
+where contains(file.folder, this.file.folder)
+where !contains(file.folder, "4 - Archive")
+where contains(type, "project")
+sort priority
 ```
-
-## Notes
-
-> [!multi-column]
-> 
->> Last modified
->>```dataview
->>List
->>FROM ""
->>WHERE contains(file.folder, this.file.folder)
->>WHERE type != "directory-page"
->>SORT file.mtime DESC
->>LIMIT 5
->>```
->
->> Last new
->>```dataview
->>List
->>FROM ""
->>WHERE contains(file.folder, this.file.folder)
->>WHERE type != "directory-page"
->>SORT file.ctime DESC
->>LIMIT 5
->>```
->
->> All
->>```dataview
->>LIST
->>WHERE contains(file.folder, this.file.folder)
->>WHERE type != "directory-page"
->>```

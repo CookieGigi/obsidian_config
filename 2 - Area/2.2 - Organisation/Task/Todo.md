@@ -1,5 +1,5 @@
 ---
-parent: "[[2.2 - Organisation]]"
+parent: "[[Task]]"
 ---
 
 

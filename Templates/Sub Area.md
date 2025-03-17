@@ -1,7 +1,7 @@
 ---
 cssclasses: 
 type: sub-area-page
-area: "[[Daily notes]]"
+area: "[[<% tp.file.folder() %>]]"
 ---
 ```meta-bind-button
 label: New note
@@ -14,7 +14,7 @@ style: default
 actions:
   - type: templaterCreateNote
     templateFile: Templates/Note.md
-    folderPath: 2 - Area/2.2 - Organisation/Daily notes
+    folderPath: <% tp.file.folder(true) %>
     fileName: ""
     openNote: true
     openIfAlreadyExists: false
@@ -31,7 +31,7 @@ style: default
 actions:
   - type: templaterCreateNote
     templateFile: Templates/Projet.md
-    folderPath: 2 - Area/2.2 - Organisation/Daily notes
+    folderPath: <% tp.file.folder(true) %>
     fileName: ""
     openNote: true
     openIfAlreadyExists: false
@@ -91,4 +91,14 @@ sort by priority
 >>WHERE contains(file.folder, this.file.folder)
 >>WHERE type != "directory-page"
 >>```
->
+
+<%*
+  // Rename file with the one choose by user
+  const fileName = await tp.system.prompt("Title :")
+  await tp.file.rename(fileName)
+  
+  const baseFolder = tp.file.folder(true)
+  const newFolder = `${baseFolder}/${fileName}/`
+
+  await tp.file.move(newFolder + fileName)
+%>

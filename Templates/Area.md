@@ -4,7 +4,7 @@ type: area-page
 category: "[[2 - Area]]"
 ---
 ```meta-bind-button
-label: New sub area
+label: Sub Area
 icon: plus
 hidden: false
 class: ""
@@ -14,7 +14,7 @@ style: default
 actions:
   - type: templaterCreateNote
     templateFile: Templates/Sub Area.md
-    folderPath: 2 - Area/2.7 - Idea
+    folderPath: <% tp.file.folder(true) %>
     fileName: ""
     openNote: true
     openIfAlreadyExists: false
@@ -28,3 +28,13 @@ where !contains(file.folder, "4 - Archive")
 where contains(type, "sub-area")
 sort priority
 ```
+<%*
+  // Rename file with the one choose by user
+  const fileName = await tp.system.prompt("Title :")
+  await tp.file.rename(fileName)
+  
+  const baseFolder = tp.file.folder(true)
+  const newFolder = `${baseFolder}/${fileName}/`
+
+  await tp.file.move(newFolder + fileName)
+%>

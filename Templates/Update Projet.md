@@ -1,7 +1,7 @@
 ---
 cssclasses: 
-type: sub-area-page
-area: "[[Daily notes]]"
+type: directory-page
+subarea: "[[<% tp.file.folder() %>]]"
 ---
 ```meta-bind-button
 label: New note
@@ -14,24 +14,7 @@ style: default
 actions:
   - type: templaterCreateNote
     templateFile: Templates/Note.md
-    folderPath: 2 - Area/2.2 - Organisation/Daily notes
-    fileName: ""
-    openNote: true
-    openIfAlreadyExists: false
-
-```
-```meta-bind-button
-label: New project
-icon: "plus"
-hidden: false
-class: ""
-tooltip: ""
-id: ""
-style: default
-actions:
-  - type: templaterCreateNote
-    templateFile: Templates/Projet.md
-    folderPath: 2 - Area/2.2 - Organisation/Daily notes
+    folderPath: <% tp.file.folder(true) %>
     fileName: ""
     openNote: true
     openIfAlreadyExists: false
@@ -50,17 +33,6 @@ sort by priority
 
 ```
 
-## Projets
-```tasks
-filter by function task.file.folder.includes(query.file.folder.replace("2 - Area", "1 - Project"))
-
-group by function task.file.folder.slice(0, -1).split('/').pop()
-group by status.name
-
-
-sort by priority
-
-```
 ## Notes
 
 > [!multi-column]
@@ -91,4 +63,13 @@ sort by priority
 >>WHERE contains(file.folder, this.file.folder)
 >>WHERE type != "directory-page"
 >>```
->
+<%*
+	console.log(tp.file.folder(true).split('/'))
+	const folders = tp.file.folder(true).split('/')
+	const fileName = folders[folders.length - 1]
+  
+	const baseFolder = tp.file.folder(true)
+	const newFolder = `${baseFolder}/`
+
+	await tp.file.move(newFolder + fileName)
+%>

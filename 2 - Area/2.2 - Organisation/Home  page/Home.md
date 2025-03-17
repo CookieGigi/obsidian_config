@@ -1,5 +1,5 @@
 ---
-parent: "[[2.2 - Organisation]]"
+parent: "[[Home  page]]"
 ---
 # Today 
 ```tasks
@@ -23,7 +23,7 @@ sort by priority
 
 
 # Quick link
-- [[2 - Area/2.2 - Organisation/Todo]]
+- [[Todo]]
 - [[Planifier]]
 ```meta-bind-button
 label: Quick Note

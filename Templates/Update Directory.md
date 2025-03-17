@@ -3,19 +3,6 @@ cssclasses:
 type: directory-page
 category: "[[<% tp.file.folder(true).split('/').slice(-2, -1)%>]]"
 ---
-
-
-<%*
-	console.log(tp.file.folder(true).split('/'))
-	const folders = tp.file.folder(true).split('/')
-	const fileName = folders[folders.length - 1]
-  
-	const baseFolder = tp.file.folder(true)
-	const newFolder = `${baseFolder}/`
-
-	await tp.file.move(newFolder + fileName)
-%>
-
 ```meta-bind-button
 label: New note
 icon: plus
@@ -70,3 +57,13 @@ WHERE startswith(file.folder, this.file.folder)
 >>WHERE contains(file.folder, this.file.folder)
 >>WHERE type != "directory-page"
 >>```
+<%*
+	console.log(tp.file.folder(true).split('/'))
+	const folders = tp.file.folder(true).split('/')
+	const fileName = folders[folders.length - 1]
+  
+	const baseFolder = tp.file.folder(true)
+	const newFolder = `${baseFolder}/`
+
+	await tp.file.move(newFolder + fileName)
+%>

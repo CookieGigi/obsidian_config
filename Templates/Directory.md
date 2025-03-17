@@ -3,19 +3,6 @@ cssclasses:
 type: directory-page
 category: "[[<% tp.file.folder() %>]]"
 ---
-
-
-<%*
-  // Rename file with the one choose by user
-  const fileName = await tp.system.prompt("Title :")
-  await tp.file.rename(fileName)
-  
-  const baseFolder = tp.file.folder(true)
-  const newFolder = `${baseFolder}/${fileName}/`
-
-  await tp.file.move(newFolder + fileName)
-%>
-
 ```meta-bind-button
 label: New note
 icon: plus
@@ -70,3 +57,13 @@ WHERE startswith(file.folder, this.file.folder)
 >>WHERE contains(file.folder, this.file.folder)
 >>WHERE type != "directory-page"
 >>```
+<%*
+  // Rename file with the one choose by user
+  const fileName = await tp.system.prompt("Title :")
+  await tp.file.rename(fileName)
+  
+  const baseFolder = tp.file.folder(true)
+  const newFolder = `${baseFolder}/${fileName}/`
+
+  await tp.file.move(newFolder + fileName)
+%>

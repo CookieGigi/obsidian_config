@@ -43,10 +43,10 @@
   "Templates": "LiBookTemplate",
   "2 - Area/2.1 - Perso": "LiUser",
   "2 - Area/2.2 - Organisation": "SiAwsorganizations",
-  "2 - Area/2.3 - Tools": "LiWrench",
   "2 - Area/2.4 - Activité": "LiActivity",
   "2 - Area/2.6 - Dev": "LiCode",
   "2 - Area/2.7 - Idea": "LiLightbulb",
   "2 - Area/2.8 - Relations": "LiUsers",
-  "2 - Area/2.9 - Finance": "LiEuro"
+  "2 - Area/2.9 - Finance": "LiEuro",
+  "2 - Area/2.3 - Workflow": "LiWrench"
 }

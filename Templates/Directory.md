@@ -14,7 +14,7 @@ style: default
 actions:
   - type: templaterCreateNote
     templateFile: Templates/Note.md
-    folderPath: <% tp.file.folder(true) %>
+
     fileName: ""
     openNote: true
     openIfAlreadyExists: false

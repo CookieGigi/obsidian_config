@@ -3,6 +3,7 @@ cssclasses:
 type: directory-page
 category: "[[<% tp.file.folder() %>]]"
 ---
+
 ```meta-bind-button
 label: New note
 icon: plus

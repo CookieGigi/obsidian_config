@@ -6,6 +6,7 @@ type: directory-page
 
 
 
+
 ```meta-bind-button
 label: New note
 icon: plus

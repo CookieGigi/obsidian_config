@@ -3,6 +3,7 @@ cssclasses:
 type: area-page
 category: "[[2 - Area]]"
 ---
+
 ```meta-bind-button
 label: Sub Area
 icon: plus

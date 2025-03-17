@@ -3,6 +3,7 @@ cssclasses:
 type: sub-area-page
 area: "[[<% tp.file.folder() %>]]"
 ---
+
 ```meta-bind-button
 label: New note
 icon: plus

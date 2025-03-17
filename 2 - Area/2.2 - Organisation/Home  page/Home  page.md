@@ -3,6 +3,7 @@ cssclasses:
 type: sub-area-page
 area: "[[2.2 - Organisation]]"
 ---
+
 ```meta-bind-button
 label: New note
 icon: plus
@@ -20,6 +21,7 @@ actions:
     openIfAlreadyExists: false
 
 ```
+
 ```meta-bind-button
 label: New project
 icon: "plus"

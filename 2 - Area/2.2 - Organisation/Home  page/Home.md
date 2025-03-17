@@ -25,6 +25,7 @@ sort by priority
 # Quick link
 - [[2 - Area/2.2 - Organisation/Task/Todo|Todo]]
 - [[Planifier]]
+
 ```meta-bind-button
 label: Quick Note
 icon: ""

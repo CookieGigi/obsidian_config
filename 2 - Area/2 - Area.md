@@ -3,6 +3,7 @@ cssclasses:
 type: directory-page
 category: "[[2 - Area]]"
 ---
+
 ```meta-bind-button
 label: Area
 icon: plus

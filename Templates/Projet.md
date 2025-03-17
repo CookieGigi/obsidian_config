@@ -5,6 +5,7 @@ priority: 0
 deadline: 
 category: "[[<% tp.file.folder() %>]]"
 ---
+
 ```meta-bind-button
 label: New note
 icon: plus

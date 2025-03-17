@@ -1,7 +1,9 @@
 ---
 cssclasses: 
-type: directory-page
-subarea: "[[<% tp.file.folder() %>]]"
+type: project-page
+priority: 0
+deadline: 
+category: "[[<% tp.file.folder() %>]]"
 ---
 ```meta-bind-button
 label: New note

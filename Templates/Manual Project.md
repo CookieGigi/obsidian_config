@@ -1,5 +1,5 @@
 ---
-cssclasses:
+cssclasses: 
 type: project-page
 priority: 0
 deadline: 

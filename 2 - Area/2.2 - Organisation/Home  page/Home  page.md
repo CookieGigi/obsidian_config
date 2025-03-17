@@ -14,7 +14,7 @@ style: default
 actions:
   - type: templaterCreateNote
     templateFile: Templates/Note.md
-    folderPath: 2 - Area/2.2 - Organisation
+
     fileName: ""
     openNote: true
     openIfAlreadyExists: false
@@ -31,7 +31,7 @@ style: default
 actions:
   - type: templaterCreateNote
     templateFile: Templates/Projet.md
-    folderPath: 2 - Area/2.2 - Organisation
+
     fileName: ""
     openNote: true
     openIfAlreadyExists: false

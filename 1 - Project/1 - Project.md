@@ -17,7 +17,6 @@ style: default
 actions:
   - type: templaterCreateNote
     templateFile: Templates/Note.md
-    folderPath: 1 - Project
     fileName: ""
     openNote: true
     openIfAlreadyExists: false

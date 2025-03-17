@@ -35,7 +35,7 @@ id: ""
 style: default
 actions:
   - type: createNote
-    folderPath: Inbox
+
     fileName: Untitled
     openNote: true
     openIfAlreadyExists: false

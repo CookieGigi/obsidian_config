@@ -14,7 +14,7 @@ style: default
 actions:
   - type: templaterCreateNote
     templateFile: Templates/Area.md
-    folderPath: 2 - Area
+
     fileName: ""
     openNote: true
     openIfAlreadyExists: false

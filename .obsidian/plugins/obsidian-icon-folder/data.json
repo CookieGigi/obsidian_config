@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiCar",
+      "LiPlane",
       "FasComputer",
       "LiEuro",
-      "LiHomepage",
-      "LiUsers",
-      "LiLightbulb"
+      "LiHomepage"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -49,5 +49,7 @@
   "2 - Area/2.8 - Relations": "LiUsers",
   "2 - Area/2.9 - Finance": "LiEuro",
   "2 - Area/2.3 - Workflow": "LiWrench",
-  "2 - Area/2.10 - Travail": "FasComputer"
+  "2 - Area/2.10 - Travail": "FasComputer",
+  "2 - Area/2.11 - Voyage": "LiPlane",
+  "2 - Area/2.12 - Voiture": "LiCar"
 }

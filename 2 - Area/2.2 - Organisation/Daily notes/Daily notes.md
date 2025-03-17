@@ -1,7 +1,7 @@
 ---
 cssclasses: 
 type: sub-area-page
-area: "[[Daily notes]]"
+area: "[[2.2 - Organisation]]"
 ---
 ```meta-bind-button
 label: New note

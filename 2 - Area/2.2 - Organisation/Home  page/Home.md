@@ -8,23 +8,18 @@ not done
 filter by function !task.file.folder.includes("liste de course")
 filter by function !task.file.folder.includes("Archive")
 
-group by status.name
+group by status.type reverse
+group by status.name reverse
 group by function task.recurrenceRule.replace('when done', '==when done==')
-
 
 sort by priority
 
 ```
 
-
-
-
-
-
-
 # Quick link
 - [[2 - Area/2.2 - Organisation/Task/Todo|Todo]]
-- [[Planifier]]
+- [[1 - Project]]
+- [[Per day]]
 
 ```meta-bind-button
 label: Quick Note

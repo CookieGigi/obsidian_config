@@ -15,7 +15,6 @@ style: default
 actions:
   - type: templaterCreateNote
     templateFile: Templates/Sub Area.md
-
     fileName: ""
     openNote: true
     openIfAlreadyExists: false

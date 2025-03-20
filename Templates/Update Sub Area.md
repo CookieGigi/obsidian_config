@@ -15,7 +15,6 @@ style: default
 actions:
   - type: templaterCreateNote
     templateFile: Templates/Note.md
-
     fileName: ""
     openNote: true
     openIfAlreadyExists: false
@@ -32,7 +31,6 @@ style: default
 actions:
   - type: templaterCreateNote
     templateFile: Templates/Projet.md
-
     fileName: ""
     openNote: true
     openIfAlreadyExists: false

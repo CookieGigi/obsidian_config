@@ -6,5 +6,6 @@
     "hide-css-tag",
     "extended-colorschemes"
   ],
-  "cssTheme": "AnuPpuccin"
+  "cssTheme": "AnuPpuccin",
+  "theme": "obsidian"
 }

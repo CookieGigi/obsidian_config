@@ -11,9 +11,8 @@ parent: "[[<% tp.file.folder() %>]]"
 ---
 
 
-## TODO
-
 ## Description
 <% tp.file.cursor() %>
 
-## Addon
+## TODO
+

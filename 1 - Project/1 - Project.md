@@ -27,5 +27,5 @@ Table category, priority, deadline
 where contains(file.folder, this.file.folder)
 where !contains(file.folder, "4 - Archive")
 where contains(type, "project")
-sort priority
+sort priority, deadline
 ```

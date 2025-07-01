@@ -15,7 +15,7 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "2 - Area/2.3 - Tools/Server self hosting/Service",
+      "folder": "2 - Area/2.3 - Workflow/Server self hosting/Service",
       "template": "Templates/Service.md"
     },
     {
